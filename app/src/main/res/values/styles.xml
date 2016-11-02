@@ -1,0 +1,36 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style parent="Theme.AppCompat.Light.DarkActionBar" name="PhotoPickerTheme">
+
+        <item name="windowActionBar">false</item>
+
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@color/green</item>
+
+        <item name="actionMenuTextAppearance">@style/ActionMenuTextStyle</item>
+
+        <!--<item name="actionBarTheme">@style/actionBarTheme</item>-->
+
+
+        <!--<item name="actionBarPopupTheme">@style/actionBarPopupTheme</item>-->
+
+    </style>
+
+    <style parent="TextAppearance.AppCompat.Widget.ActionBar.Menu" name="ActionMenuTextStyle">
+
+        <item name="android:textSize">@dimen/action_text_size</item>
+
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+</resources>
